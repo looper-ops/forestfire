@@ -36,6 +36,6 @@ void loop() {
     digitalWrite(13, LOW);
     digitalWrite(4, LOW);
   }
-  delay(1000);
+  delay(100);
 
  }
