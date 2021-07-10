@@ -30,7 +30,7 @@ void loop() {
   Serial.print(F("C "));
 
 
-  if (t>25) {
+  if (t>100) {
     tone(4, 523, 1000); // play tone 60 (C5 = 523 Hz)
   } else {
     digitalWrite(13, LOW);
